@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
   val result1 = calculator.calculate(10.0,3.0) //usando o padrao
 
   //criando um lambda e armazenando numa constante
-  val multiplication = {x: Double, y: Double ->
+  val multiplication = { x: Double, y: Double ->
     x*y
   }
 
